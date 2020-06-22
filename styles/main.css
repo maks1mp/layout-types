@@ -73,3 +73,54 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.services {
+    padding: 96px 0 90px;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.services .icon {
+    height: 68px;
+    line-height: 68px;
+    margin-bottom: 28px;
+}
+
+.services .icon img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.services h4 {
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+}
+
+.services li {
+    padding: 0 29px;
+}
+
+.services li:first-child {
+    padding-left: 0;
+}
+
+.services li:last-child {
+    padding-right: 0;
+}
+
+.services p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
