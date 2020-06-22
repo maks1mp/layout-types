@@ -1,0 +1,164 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table td {
+    border-collapse: collapse;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    width: 1114px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.85;
+}
+
+.menu td:not(:first-child) a {
+    margin-left: 50px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main td {
+    padding: 44px 0 58px;
+}
+
+.main h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: .83;
+    letter-spacing: 1.5px;
+    margin-bottom: 38px;
+}
+
+.main h1 b {
+    font-weight: 900;
+}
+
+.main p {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    margin-bottom: 54px;
+}
+
+.main a {
+    color: #ffffff;
+    padding: 17px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.services {
+    width: 100%;
+}
+
+.services-item {
+    text-align: center;
+    padding-top: 95px;
+    padding: 96px 29px 90px;
+}
+
+.services-item:first-child {
+    padding-left: 0;
+}
+
+.services-item:last-child {
+    padding-right: 0;
+}
+
+.services-item table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.services-item table td {
+    height: 68px;
+    vertical-align: bottom;
+}
+
+.services-item h4 {
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+}
+
+.services-item p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.features {
+    width: 100%;
+    margin-bottom: 95px;
+}
+
+.features-headline {
+    padding-top: 66px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.features-headline h3 {
+    letter-spacing: 0.75px;
+    margin-bottom: 32px;
+}
+
+.features-headline p {
+    letter-spacing: 0.5px;
+}
+
+.features-content h4 {
+    padding: 40px 0 16px;
+    letter-spacing: 0.45px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.features-content p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+}
+
+.features-content h4,
+.features-content p {
+    text-align: left;
+    max-width: 300px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer-upper {
+    padding: 46px 0 33px;
+}
+
+.footer-upper h5 {
+    margin-bottom: 26px;
+}
+
+.footer-lower {
+    font-size: 14px;
+    padding: 47px 0;
+    letter-spacing: 0.28px;
+}
