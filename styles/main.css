@@ -46,10 +46,12 @@
 }
 
 .main h1 {
+    font-style: normal;
     font-weight: 300;
     font-size: 60px;
     line-height: .83;
     letter-spacing: 1.5px;
+    margin-bottom: 38px;
 }
 
 .main h1 b {
@@ -61,4 +63,13 @@
     font-size: 40px;
     line-height: 1.75;
     letter-spacing: 1px;
+    margin-bottom: 54px;
+}
+
+.main a {
+    color: #ffffff;
+    padding: 17px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
