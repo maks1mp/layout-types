@@ -9,11 +9,12 @@
     justify-content: space-between;
 }
 
-.navigation {
-    padding: 36px 0 39px;
+.header-content .logo {
+    padding: 32px 0px;
 }
 
 .navigation ul {
+    padding: 36px 0 39px;
     list-style: none;
     display: flex;
 }
