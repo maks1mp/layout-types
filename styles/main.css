@@ -1,0 +1,66 @@
+.container {
+    max-width: 1114px;
+    margin: 0 auto;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.header-grid nav {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    gap: 50px;
+    align-items: center;
+    justify-content: end;
+    padding: 36px 0 39px;
+}
+
+.header-grid .logo {
+    padding: 32px 0px;
+}
+
+.header-grid nav a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 1.85;
+    letter-spacing: 0.325px;
+    text-transform: uppercase;
+}
+
+.main {
+    padding: 44px 0 58px;
+    text-align: center;
+}
+
+.main h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: .83;
+    letter-spacing: 1.5px;
+    margin-bottom: 38px;
+}
+
+.main h1 b {
+    font-weight: 900;
+}
+
+.main p {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    margin-bottom: 54px;
+}
+
+.main a {
+    color: #ffffff;
+    padding: 17px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
