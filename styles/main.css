@@ -125,12 +125,12 @@
 }
 
 .features-posts {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .features-post {
-    margin-top: 50px;
     max-width: 300px;
 }
 
